@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dcf40adf54387e46ad6e73252e3fe6a, type: 3}
+  m_Name: Robin
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 3a6232468156ba547844eb2009390860, type: 3}
+  - {fileID: 21300000, guid: e90180ba06467424e8606964411839aa, type: 3}
+  - {fileID: 21300000, guid: ec7cae6ab1b21334c97ca7e8bb77fc06, type: 3}
+  - {fileID: 21300000, guid: 8fb5c2c0fd0bfb64487c145873d00864, type: 3}
+  - {fileID: 21300000, guid: d064a6d60a11ab54dbdae65bc6d29649, type: 3}
+  - {fileID: 21300000, guid: e62389ac5974c4a4ea9528ec3babc0d7, type: 3}
+  prefab: {fileID: 600690760960190277, guid: 7077edc89c280424586aefe1f4b6bebc, type: 3}
+  speakerName: Robin
+  textColor: {r: 0.33475742, g: 0.8396226, b: 0.1544589, a: 1}
