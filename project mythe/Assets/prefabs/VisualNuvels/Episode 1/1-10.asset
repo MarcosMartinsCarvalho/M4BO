@@ -28,6 +28,7 @@ MonoBehaviour:
   OtherG: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   BodyNpc: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   HairNpc: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
+  FaceNpc: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   TChar: Kevin
   text: Just get the groceries..
   Option1: 

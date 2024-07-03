@@ -15,7 +15,7 @@ MonoBehaviour:
   Background: {fileID: 21300000, guid: 5d98f6d7cca285843811c73094b25652, type: 3}
   Scroll: {fileID: 21300000, guid: 7aa49ab225ee3f84c84ef6d1ae812870, type: 3}
   BodyR: {fileID: 21300000, guid: d064a6d60a11ab54dbdae65bc6d29649, type: 3}
-  EyesR: {fileID: 21300000, guid: 3a6232468156ba547844eb2009390860, type: 3}
+  EyesR: {fileID: 21300000, guid: 42d622ae94dc33d4ea7f9904d992491f, type: 3}
   MouthR: {fileID: 21300000, guid: ec7cae6ab1b21334c97ca7e8bb77fc06, type: 3}
   OtherR: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   BodyH: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
@@ -28,9 +28,10 @@ MonoBehaviour:
   OtherG: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   BodyNpc: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   HairNpc: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
+  FaceNpc: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   TChar: Kevin
-  text: "What the hell did you do yesterday that you couldn\u2019t take 30 minutes
-    out of your day to buy groceries?"
+  text: What the hell did you even do yesterday? You couldn't take 30 minutes out
+    of your busy day to buy groceries?
   Option1: 
   Option2: 
   Option3: 

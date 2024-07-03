@@ -16,7 +16,7 @@ MonoBehaviour:
   Scroll: {fileID: 21300000, guid: 7aa49ab225ee3f84c84ef6d1ae812870, type: 3}
   BodyR: {fileID: 21300000, guid: d064a6d60a11ab54dbdae65bc6d29649, type: 3}
   EyesR: {fileID: 21300000, guid: 3a6232468156ba547844eb2009390860, type: 3}
-  MouthR: {fileID: 21300000, guid: ec7cae6ab1b21334c97ca7e8bb77fc06, type: 3}
+  MouthR: {fileID: 21300000, guid: 389d369feb6762f40b8a3f49c291da9c, type: 3}
   OtherR: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   BodyH: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   EyesH: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
@@ -28,10 +28,11 @@ MonoBehaviour:
   OtherG: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   BodyNpc: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   HairNpc: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
+  FaceNpc: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   TChar: 
   text: 
   Option1: Yeah of course I know
-  Option2: I forgor
+  Option2: I forgot
   Option3: 
   choices: 190000001b00000000000000
   next: 24

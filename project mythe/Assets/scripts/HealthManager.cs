@@ -1,36 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class HealthManager : MonoBehaviour
 {
-    public Image HealthBar;
-    public float HealthAmount = 100f;
+    [SerializeField] private Image healthBar;
+    [SerializeField] private float healthAmount = 100;
+    [SerializeField] private GameObject failScreen;
+    public GameManager gameManager;
 
-    // Start is called before the first frame update
+    private float currentHealthAmount;
+    private float lerpSpeed = 5f;
+
     void Start()
     {
-
+        currentHealthAmount = healthAmount;
+        failScreen.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
+        currentHealthAmount = Mathf.Lerp(currentHealthAmount, healthAmount, lerpSpeed * Time.deltaTime);
+        healthBar.fillAmount = currentHealthAmount / 100;
+
+        if (healthAmount < 1 && gameManager.currentState == GameManager.GameState.Playing)
+        {
+            gameManager.TriggerGameOver();
+            failScreen.SetActive(true);
+        }
     }
 
     public void TakeDamage(float damage)
     {
-        HealthAmount -= damage;
-        HealthAmount = Mathf.Clamp(HealthAmount, 0f, 100f);
-        HealthBar.fillAmount = HealthAmount / 100f;
+        healthAmount -= damage;
     }
 
-    public void Heal(float healingAmount)
+    public void Heal(float healAmount)
     {
-        HealthAmount += healingAmount;
-        HealthAmount = Mathf.Clamp(HealthAmount, 0f, 100f);
-
-
-        HealthBar.fillAmount = HealthAmount / 100f;
+        healthAmount += healAmount;
+        healthAmount = Mathf.Clamp(healthAmount, 0, 100);
     }
 }

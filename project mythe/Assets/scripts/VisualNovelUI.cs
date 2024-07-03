@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class VisualNovelUI : MonoBehaviour
@@ -46,7 +48,7 @@ public class VisualNovelUI : MonoBehaviour
     //Npc
     [SerializeField] private Image BodyNpc;
     [SerializeField] private Image HairNpc;
-
+    [SerializeField] private Image FaceNpc;
     private void Start()
     {
         RenderVN();
@@ -58,11 +60,15 @@ public class VisualNovelUI : MonoBehaviour
         {
             index = visualnovels[index].next;
         }
+        
+        else if(visualnovels[index].next == -2)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
         else
         {
             index++;
         }
-
         RenderVN();
     }
 
@@ -135,13 +141,25 @@ public class VisualNovelUI : MonoBehaviour
 
         BodyNpc.sprite = visualnovels[index].BodyNpc;
         HairNpc.sprite = visualnovels[index].HairNpc;
-
-
+        FaceNpc.sprite = visualnovels[index].FaceNpc;
     }
 
     public void choiceButton(int buttonIndex)
     {
         index = visualnovels[index].choices[buttonIndex];
         RenderVN();
+    }
+
+    public void SkipVN1()
+    {
+        SceneManager.LoadScene("gameplay1");
+    }
+    public void SkipVN2()
+    {
+        SceneManager.LoadScene("gameplay2");
+    }
+    public void SkipVN3()
+    {
+        SceneManager.LoadScene("gameplay3");
     }
 }

@@ -28,10 +28,12 @@ MonoBehaviour:
   OtherG: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   BodyNpc: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   HairNpc: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
+  FaceNpc: {fileID: 21300000, guid: 1fc32223bde0ab24ea5412654f774181, type: 3}
   TChar: Narrator
-  text: Robin wakes up in his treehouse. He breaks most things is his house for no
-    reason.
+  text: The story begins at a small treehouse.
   Option1: 
   Option2: 
   Option3: 
   choices: 000000000000000000000000
+  next: -1
+  prev: 0

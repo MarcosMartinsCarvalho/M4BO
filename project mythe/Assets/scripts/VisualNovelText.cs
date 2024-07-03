@@ -29,6 +29,7 @@ public class VisualNovelText : ScriptableObject
     //Npc
     public Sprite BodyNpc;
     public Sprite HairNpc;
+    public Sprite FaceNpc;
 
     public string TChar;
     public string text;
