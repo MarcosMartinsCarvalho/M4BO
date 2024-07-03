@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08933acb478ba04ba71c0a52e279fb5, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: this pipe aint shit
+    speaker: {fileID: 11400000, guid: 55711ba432f6df7439687d0ed11227de, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 55711ba432f6df7439687d0ed11227de, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: UUUUAAAAHHASHDFKAJSHDFL;KHQWEIKFJHLAKDFJVHLASKDFJHVW
+    speaker: {fileID: 11400000, guid: 55711ba432f6df7439687d0ed11227de, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 55711ba432f6df7439687d0ed11227de, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  background: {fileID: 21300000, guid: 9c5c39127bc1ea24c8a98749c4c255b8, type: 3}
+  nextScene: {fileID: 11400000, guid: 41add3ab995f3094cb1b03a3dcb9db79, type: 2}

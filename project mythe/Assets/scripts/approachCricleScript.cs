@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class approachCricleScript : MonoBehaviour
+public class ScaleBasedOnDistance : MonoBehaviour
 {
     public Transform target; // The target object to measure the distance from
     public float minSize = 0.5f; // Minimum size for the object
